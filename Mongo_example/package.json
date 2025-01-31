@@ -1,0 +1,14 @@
+{
+  "name": "mongo_example",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongoose": "^8.9.5"
+  }
+}
