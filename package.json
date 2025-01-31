@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "mongoose": "^8.9.6"
+  },
+  "name": "moongose",
+  "version": "1.0.0",
+  "main": "apitest.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
