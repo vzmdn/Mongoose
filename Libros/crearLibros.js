@@ -257,4 +257,4 @@ selectSelect.addEventListener('change', responsiveSelect);
 const eliminarLibroBtn = document.getElementById('eliminarLibro');
 eliminarLibroBtn.addEventListener('click', eliminarLibro);
 
-hideMenus();
+cargarLibrosMongo();
