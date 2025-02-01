@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Libros</title>
 </head>
+
 <body>
+    <h3 id="cargados">Libros cargados: 0</h3>
     <div id="menu">
-        <button id="crear">Cargar libros (JSON)</button>
-        <button id="crear">Cargar libros (Mongo)</button>
-        <button id="editar">Editar libro (Mongo)</button>
-        <select id="select">
-        </select>
-        <button id="eliminar">Guardar libros (Mongo)</button>
+        <div id="menu1">
+            <button id="cargarJson">Cargar libros (JSON)</button>
+            <button id="cargarMongo">Cargar libros (Mongo)</button>
+            <button id="guardar">Guardar libros (Mongo)</button>
+        </div>
+        <div id="menu2">
+            <button id="eliminarLibro">Eliminar libro (Mongo)</button>
+            <select id="select">
+            </select>
+            <div class="inline">
+                <div>Titulo: </div>
+                <input type="text" id="titulo" placeholder="Título">
+            </div>
+            <div class="inline">
+                <div>Autor: </div>
+                <input type="text" id="autor" placeholder="Autor">
+            </div>
+            <button id="editar">Editar libro (Mongo)</button>            
+        </div>
+        <div id="menu3">
+            <button id="eliminar">Eliminar colección</button>
+        </div>
+
+
+
     </div>
     <div id="container">
-    </div>   
+    </div>
 </body>
 <script src="crearLibros.js"></script>
+
 </html>

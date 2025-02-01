@@ -11,5 +11,8 @@
   "dependencies": {
     "electron": "^34.0.2",
     "mongoose": "^8.9.6"
+  },
+  "devDependencies": {
+    "electron-reloader": "^1.2.3"
   }
 }

@@ -26,3 +26,8 @@ app.on('activate', () => {
         createWindow();
     }
 });
+
+//electron-reloader
+try {
+    require('electron-reloader')(module)
+  } catch (_) {}
