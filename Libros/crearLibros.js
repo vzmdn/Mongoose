@@ -172,6 +172,7 @@ let guardarLibros = () => {
         await libro.save().then(resultado => {
             console.log("Libro añadido: ", resultado);
             if(bookArray.length > 0) showMenus();
+            responsiveSelect();
         }).catch(error => {
             console.log("ERROR añadiendo libro: ", error)
         })

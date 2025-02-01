@@ -1,6 +1,9 @@
 body{
     background-color: antiquewhite;
 }
+h3{
+    text-align: center;
+}
 
 /*LIBROS*/
 #container{
@@ -67,5 +70,6 @@ img {
 select, #eliminarLibro, #editar, .inline{
     width: 100%;
 }
+
 
 
