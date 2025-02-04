@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 70%;
+    height: 70%;
+    border: 1px solid black;
+    margin: 15%;
+}
+#container > * {
+    margin-top: 10%;
+    width: 90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+
+#saveButton{
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
