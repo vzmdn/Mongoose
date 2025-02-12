@@ -138,15 +138,19 @@ document.getElementById("btnVer").addEventListener('click', () => {
     let txtVerTitulo = document.getElementById("txtVer").value;
     nf(recurso+'/libros/'+txtVerTitulo)
         .then(res => res.json())
-        .then(json => ipcRenderer.send("verLibro",json))
-        .then(()=>ipcRenderer.on("pintarLibro",(event,arg)=>
-        {
-            let win=window.open();
-            win.document.write('<h1>El titulo del libro es</h1>'+arg[0].title)
-            console.log(arg[0].title)
-        }));
-    
-    
+        .then(json => ipcRenderer.send("verLibro",json));
+});
+
+ipcRenderer.on("pintarLibro", (event, arg) => {
+    let win = window.open();
+    html = '';
+    html += `<div>`
+    html += `<img src="${recurso}/public/${arg[0].img}" alt="Book Image" height="170" width="108">`
+    html += `<h2>${arg[0].title}</h2>`
+    html += `<p>Author: ${arg[0].author}</p>`
+    html += `</div>`
+    win.document.write(html);
+    console.log(arg[0].title);
 });
 
 
