@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="xel-theme" content="node_modules/xel/themes/adwaita.css">
+    <meta name="xel-accent-color" content="graphite">
+    <meta name="xel-icons" content="node_modules/xel/icons/material.svg">
+    <script src="node_modules/xel/xel.js" type="module"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f8f8f8;
+            padding: 10px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <title>Libros</title>
+</head>
+<body>
+    <div id="container">
+        
+    </div>
+    <footer>
+        <x-buttons>
+            <x-button toggled>
+                <x-label id="busqueda">BÚSQUEDAS</x-label>
+                <x-icon name="search"></x-icon>
+            </x-button>
+            <x-button>
+                <x-label id="nuevoLibro">NUEVO LIBRO</x-label>
+                <x-icon name="folder"></x-icon>
+            </x-button>
+            <x-button>
+                <x-label id="borrarLibro">BORRAR LIBRO</x-label>
+                <x-icon name="folder"></x-icon>
+            </x-button>
+            <x-button>
+                <x-label id="todos">TODOS</x-label>
+                <x-icon name="home"></x-icon>
+            </x-button>
+        </x-buttons>
+    </footer>    
+</body>
+</html>

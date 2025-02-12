@@ -1,0 +1,18 @@
+{
+  "name": "libros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.3.3",
+    "mongoose": "^8.1.0",
+    "node-fetch": "^2.7.0",
+    "xel": "^0.25.4"
+  }
+}

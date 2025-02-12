@@ -9,8 +9,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "electron": "^34.0.2",
-    "mongoose": "^8.9.6"
+    "electron": "^34.1.0",
+    "mongoose": "^8.9.6",
+    "xel": "^0.30.0"
   },
   "devDependencies": {
     "electron-reloader": "^1.2.3"

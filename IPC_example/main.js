@@ -24,7 +24,9 @@ function createWindow2() {
     win2.loadFile('index2.html');
 }
 
-app.on('ready', createWindow);
+app.whenReady().then(() => {
+    createWindow();
+});
 
 app.on('ready', () => {
     let window1 = createWindow;
