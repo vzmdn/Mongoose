@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio4",
+  "version": "1.0.0",
+  "description": "An Electron application that connects to a server to display a list of questions.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "electron": "^34.2.0"
+  }
+}

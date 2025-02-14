@@ -1,0 +1,102 @@
+[
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "The Konami Code is known as Up, Up, Down, Down, Left, Right, Right, Left, B, A, Start.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": false,
+    "puntuacion": 7
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "The PlayStation was originally a joint project between Sega and Sony that was a Sega Genesis with a disc drive.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": false,
+    "puntuacion": 7
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "The name of the main character of the video game &quot;The Legend of Zelda&quot;, is Zelda.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": false,
+    "puntuacion": 2
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "Rebecca Chambers does not appear in any Resident Evil except for the original Resident Evil and the Gamecube remake.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": false,
+    "puntuacion": 0
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "In the game Dead by Daylight, the killer Michael Myers is refered to as &quot;The Shape&quot;.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": true,
+    "puntuacion": 7
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "Donkey Kong was originally set to be a Popeye arcade game.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": true,
+    "puntuacion": 6
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "The song &quot;Megalovania&quot; by Toby Fox made its third appearence in the 2015 RPG &quot;Undertale&quot;.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": true,
+    "puntuacion": 5
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "Solid Snake is actually a clone from the DNA of Big Boss in the Metal Gear Solid series&#039; history.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": true,
+    "puntuacion": 8
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "&quot;Sonic the Hedgehog 2&quot; originally was going to have a time travel system.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": true,
+    "puntuacion": 2
+  },
+  {
+    "nombre_videojuego": "Juego ejemplo",
+    "pregunta": "In Resident Evil 4, the Chicago Typewriter has infinite ammo.",
+    "opciones": [
+      "True",
+      "False"
+    ],
+    "respuesta_correcta": true,
+    "puntuacion": 8
+  }
+]

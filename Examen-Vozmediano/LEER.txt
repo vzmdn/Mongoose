@@ -1,0 +1,11 @@
+//script para iniciar el servidor
+cd ejercicio1;
+node ejercicio1.js;
+cd ../ejercicio2;
+node ejercicio2.js;
+cd ../ejercicio3;
+node server.js;
+
+//script para iniciar electron
+cd ejercicio4;
+npm start;

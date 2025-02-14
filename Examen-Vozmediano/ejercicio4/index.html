@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas de Videojuegos</title>
+    <link rel="stylesheet" href="styles/photon.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Preguntas</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Videojuego</th>
+                    <th>Pregunta</th>
+                    <th>Respuesta Correcta</th>
+                    <th>Puntuación</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="questions-list">
+                <!-- Questions will be dynamically inserted here -->
+            </tbody>
+        </table>
+        <form id="new-question-form">
+            <input type="hidden" id="question-id">
+            <input type="text" id="nombre_videojuego" placeholder="Nombre del videojuego" required>
+            <input type="text" id="pregunta" placeholder="Pregunta" required>
+            <input type="text" id="respuesta_correcta" placeholder="Respuesta correcta" required>
+            <input type="number" id="puntuacion" placeholder="Puntuación" required>
+            <button type="submit">Añadir Pregunta</button>
+        </form>
+        <div id="error"></div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
